@@ -4,6 +4,15 @@
   "main": "lib/react-create-subscription.js",
   "module": "lib/react-create-subscription.es.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomaxx/react-create-subscription.git"
+  },
+  "author": "Jo Maxx Blake <jo.maxx.blake@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jomaxx/react-create-subscription/issues"
+  },
+  "homepage": "https://github.com/jomaxx/react-create-subscription#readme",
   "files": ["lib"],
   "scripts": {
     "prebuild": "rm -rf lib",
