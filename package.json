@@ -1,0 +1,31 @@
+{
+  "name": "react-create-subscription",
+  "version": "0.0.0",
+  "main": "lib/react-create-subscription.js",
+  "module": "lib/react-create-subscription.es.js",
+  "license": "MIT",
+  "files": ["lib"],
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "rollup -c",
+    "precommit": "lint-staged",
+    "prepublishOnly": "yarn build"
+  },
+  "lint-staged": {
+    "*.{js,json,md}": ["prettier --write", "git add"],
+    "yarn.lock": ["git rm --cached"]
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "husky": "^0.14.3",
+    "jest": "^22.4.2",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "react": "^16.3.0-alpha.1",
+    "react-dom": "^16.3.0-alpha.1",
+    "rollup": "^0.56.5",
+    "rollup-plugin-babel": "^3.0.3"
+  }
+}
