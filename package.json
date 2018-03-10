@@ -1,6 +1,6 @@
 {
   "name": "react-create-subscription",
-  "version": "0.0.0",
+  "version": "0.1.0-0",
   "main": "lib/react-create-subscription.js",
   "module": "lib/react-create-subscription.es.js",
   "license": "MIT",
